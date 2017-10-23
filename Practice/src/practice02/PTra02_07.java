@@ -10,6 +10,12 @@ public class PTra02_07 {
 	public static void main(String[] args) {
 		int num = 97;
 		System.out.println("num:" + num);
+		
+		int target = 33;
+		
+		System.out.println(num/target);
+		
+		System.out.println(num%target);
 
 		// ★ int型の変数targetを宣言して、97未満の数字を代入してください（値は任意です）
 

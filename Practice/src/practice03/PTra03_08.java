@@ -24,6 +24,26 @@ public class PTra03_08 {
 		int num = scanner.nextInt();
 
 		int money = 1000;	// 所持金
+		
+		if(num==1) {
+			money-=150;
+			System.out.println("オレンジジュースを購入しました。");
+			System.out.println("残りの所持金は"+money+"円です。");
+		
+		}else if(num==2) {
+			money-=160;
+			System.out.println("リンゴジュースを購入しました。");
+			System.out.println("残りの所持金は"+money+"円です。");
+		
+		}else if(num==3) {
+			money-=200;
+			System.out.println("コーヒーを購入しました。");
+			System.out.println("残りの所持金は"+money+"円です。");
+			
+		}else {
+			System.out.println("不正な値です");
+		}
+		
 
 		//---------------------ここから本題-----------------------
 		/*

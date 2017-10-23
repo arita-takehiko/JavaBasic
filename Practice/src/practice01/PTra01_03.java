@@ -9,6 +9,9 @@ package practice01;
 public class PTra01_03 {
 	public static void main(String[] args) {
 
+	int i = 10;
+		
+		
 		// ★ int型の変数 i を宣言してください
 
 

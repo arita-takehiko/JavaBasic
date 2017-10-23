@@ -9,6 +9,9 @@ package practice01;
 public class PTra01_04 {
 	public static void main(String[] args) {
 
+	float f = 3.14f;
+			
+	System.out.println(f);	
 		// ★ float型の変数 f を宣言してください
 
 

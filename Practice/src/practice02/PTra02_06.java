@@ -13,6 +13,17 @@ public class PTra02_06 {
 
 		System.out.println("x:" + x);
 		System.out.println("y:" + y);
+		
+		int z = x*x;
+		
+		int α= z/y;
+		
+		y = y*α/x;
+		
+		x = z/α;
+		
+		
+				
 
 		// ★ 変数 x, y の値をリテラルの数字を使わずに入れ替えてください
 		// ※プログラムは何行書いても良いです
