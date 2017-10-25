@@ -8,7 +8,12 @@ package practice06;
 
 public class PTra06_05 {
 	public static void main(String[] args) {
-
+		for(int i=1;i<=5;i++) {
+			for(int z=1;z<=4;z++) {
+				System.out.print("■");
+			}
+			System.out.println("■");
+			
 		// ★ for文を使って、以下のような出力になるようにしてください
 		/*
 		 * 出力結果例
@@ -19,6 +24,6 @@ public class PTra06_05 {
 		 * ■■■■■
 		 * ■■■■■
 		 */
-
+		}
 	}
 }

@@ -11,7 +11,17 @@ public class PTra06_02 {
 
 		// ★ 20回繰り返しを行うfor文を記述してください
 		//-----for start
-
+		for(int i=1;i<=20;i++) {
+			System.out.print(i+"回目");
+			switch(i%2) {
+			case 0:
+				System.out.println("");
+				break;
+			case 1:
+				System.out.println(""+"奇数");
+				break;
+			}
+		}
 			// ★ 今何回目の処理なのかを出力してください
 
 

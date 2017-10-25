@@ -15,7 +15,15 @@ public class PTra08_06 {
 		dispValue('島');
 
 	}
-
+	public static void dispValue(int message) {
+		System.out.println("「"+message+"」");
+	}
+	public static void dispValue(double message) {
+		System.out.println("「"+message+"」");
+	}
+	public static void dispValue(char message) {
+		System.out.println("「"+message+"」");
+	}
 	/*
 	 * 以下の仕様でメソッドを作成してください
 	 *

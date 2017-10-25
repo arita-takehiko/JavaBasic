@@ -9,6 +9,9 @@ package practice08;
 public class PTra08_01 {
 	public static void main(String[] args) {
 
+		int receive = number();
+		System.out.println(receive);
+		
 		// ★ 変数receiveを宣言し、メソッドnumberを実行した結果を代入してください
 
 

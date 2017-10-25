@@ -30,11 +30,25 @@ public class PTra08_05 {
 		// コマンドプロンプトで入力した数値が変数heightに代入されます
 		// ※ コマンドプロンプトで入力された値が、数字ではなかった場合はプログラムがエラーになります
 		int choice = scanner.nextInt();
+		if(choice==1) {
+			System.out.println(quadrangle(width,height));
+		}else if(choice==2) {
+			System.out.println(triangle(width,height));
+		}else {
+			System.out.println("不正な値です");
+		}
 
 		// ★ 変数choiceの中が、1であれば四角形の面積を算出するメソッドを、2であれば三角形の面積を算出するメソッドを呼び出してください
 
 	}
-
+	public static double quadrangle(double i,double y) {
+		double result = i*y;
+		return result;		
+	}
+	public static double triangle(double i,double y) {
+		double result =i*y/2;
+		return result;
+	}
 	/*
 	 * ★ 以下の仕様でメソッドを作成してください
 	 *

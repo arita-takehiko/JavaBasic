@@ -9,6 +9,13 @@ package practice07;
 public class PTra07_02 {
 	public static void main(String[] args) {
 
+		int[] array= new int[1000];
+		
+		for(int i = 1; i <= 1000; i++){
+            array[i-1]=i;
+            
+            System.out.println(array[i-1]);
+		}
 		// ★ int型の配列arrayを宣言し、1000個の領域で確保してください
 
 

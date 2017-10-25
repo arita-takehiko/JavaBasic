@@ -8,7 +8,13 @@ package practice07;
 
 public class PTra07_04 {
 	public static void main(String[] args) {
-
+		
+		int[] trump = new int[52];
+		for(int i = 1; i <= 52; i++){
+            trump[i-1]=i;
+		}
+		int num = new java.util.Random().nextInt(52);
+		System.out.println(trump[num]);
 		// ★ int型の配列trumpを宣言し、52個の領域を確保してください
 
 
