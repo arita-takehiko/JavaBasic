@@ -18,18 +18,19 @@ public class PTra12_01 {
 		 * ★ 下記、インスタンスフィールドへのアクセスをアクセサ経由に変更してください
 		 */
 		Student student = new Student();
-		student.studentId = 10001;
-		student.studentName = "リゾーム太郎";
-		student.companyName = "株式会社リゾーム";
-		student.className = "Z教室";
-		student.mail = "rhizome@hogehoge.com";
-		student.password ="1qazxcvb";
+		
+		student.setID(1001);
+		student.setName("田中太郎");
+		student.setCom("株式会社リゾーム");
+		student.setClasss("Z教室");
+		student.setMail ("rhizome@hogehoge.com");
+		student.setPass ("1qazxcvb");
 
-		System.out.println("受講生ID　：" + student.studentId);
-		System.out.println("受講生名　：" + student.studentName);
-		System.out.println("会社名　　：" + student.companyName);
-		System.out.println("教室名　　：" + student.className);
-		System.out.println("メール　　：" + student.mail);
-		System.out.println("パスワード：" + student.password);
+		System.out.println("受講生ID　："+ student.getID() );
+		System.out.println("受講生名　：" + student.getName());
+		System.out.println("会社名　　：" + student.getCom());
+		System.out.println("教室名　　：" + student.getClasss());
+		System.out.println("メール　　：" + student.getMail());
+		System.out.println("パスワード：" + student.getPass());
 	}
 }

@@ -7,6 +7,7 @@ package practice11;
  */
 
 public class PTra11_03 {
+	int number;	 	
 
 	/*
 	 * ★ PTra11_03クラスに、クラスフィールドでint型のnumberを定義してください
@@ -20,12 +21,16 @@ public class PTra11_03 {
 	public static void main(String[] args) {
 
 		// ★ sumメソッドを呼び出してください
+		PTra11_03 Pt11 = new PTra11_03();
+		
+		
+		Pt11.sum(1,2);
 
 	}
 
 	public void sum(int x, int y) {
 		System.out.println("sumメソッドを呼び出しました。" + x + "＋" + y + "＝" + (x + y));
 
-		System.out.println("クラスフィールドnumber：" /* + ★ クラスフィールドnumberの出力をしてください */);
+		System.out.println("クラスフィールドnumber：" +(this.number+1)/* + ★ クラスフィールドnumberの出力をしてください */);
 	}
 }
