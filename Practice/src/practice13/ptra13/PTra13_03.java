@@ -14,6 +14,12 @@ public class PTra13_03 {
 	 */
 
 	public static void main(String[] args) {
+		
+		practice13.common.Slime nama =new practice13.common.Slime();
+		
+		nama.setName("スライム");
+		
+		System.out.println(nama.showParameter());
 		// ★ common.Slimeクラスをインスンタンス化してください
 
 

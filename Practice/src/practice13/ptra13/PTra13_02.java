@@ -7,13 +7,25 @@
 package practice13.ptra13;
 
 public class PTra13_02 {
-
 	/*
 	 * ★ common.Characterクラスを継承した、common.Heroクラスを作成してください
 	 * 	●HP, POWER, ENDURANCEはそれぞれ、（25, 10, 7）
 	 */
 
-	public static void main(String[] args) {
+	public static void main(String[]args){
+		
+		practice13.common.Hero dare = new practice13.common.Hero();
+		
+		dare.setName("勇者");
+		
+		System.out.println(dare.showParameter());
+	
+		
+		
+		
+		
+		
+		
 		// ★ common.Heroクラスをインスンタンス化してください
 
 

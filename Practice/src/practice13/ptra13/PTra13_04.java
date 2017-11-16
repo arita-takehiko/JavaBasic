@@ -13,9 +13,28 @@ public class PTra13_04 {
 	 */
 
 	public static void main(String[] args) {
-
+		
+		practice13.common.Hero dare = new practice13.common.Hero();
+		dare.setName("勇者");
+		practice13.common.Slime nama =new practice13.common.Slime();
+		nama.setName("スライム");
+		
+		int i=0;
+		int q=0;
+		for(nama.damage(dare.attack());nama.damage(dare.attack())==false;) {
+			i++;
+		}
+		for(dare.damage(nama.attack());dare.damage(nama.attack())==false;) {
+			q++;
+		}
+		
+		if(i<q) {
+			System.out.println(dare.getName()+"は"+nama.getName()+"との戦闘に勝利した");
+		}else {
+			System.out.println(nama.getName()+"は"+dare.getName()+"との戦闘に勝利した");
+		}
+		
 		// ★ HeroインスタンスとSlimeインスタンスを作成し、それぞれの名前に"勇者", "スライム"を設定してください
-
 
 		/*
 		 * ★ HeroとSlimeを、どちらかが体力０になるまで戦わせます

@@ -35,5 +35,14 @@ public class PTra13_09 {
 
 		// ★ 定数で定義されている各データを使用して、Employeeインスタンスを３つ作成してください
 
+		practice13.common.Employee[] yatoware = new practice13.common.Employee[NAMEDATA.length];
+
+		for(int i=0;i<NAMEDATA.length;i++) {
+			yatoware[i]= new practice13.common.Employee();
+			yatoware[i].setDepartmentNm(NAMEDATA[i]);
+			yatoware[i].setDepartmentCnt(Integer.valueOf(QUATERDATA[1][i]));
+		}
+
+	System.out.println(yatoware[0].getDepartmentNm());
 	}
 }
